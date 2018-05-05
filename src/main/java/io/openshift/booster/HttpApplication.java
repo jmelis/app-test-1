@@ -88,7 +88,7 @@ public class HttpApplication extends AbstractVerticle {
         }
         String name = rc.request().getParam("name");
         if (name == null) {
-            name = "World";
+            name = "Solar System";
         }
 
         LOGGER.debug("Replying to request, parameter={}", name);
